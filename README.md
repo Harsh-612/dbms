@@ -5,16 +5,20 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-npm run dev
+npm run dev --turbo
 # or
-yarn dev
+yarn dev --turbo
 # or
-pnpm dev
+pnpm dev --turbo
 # or
-bun dev
+bun dev --turbo
 ```
 
+Add a connection url to your database before opening the app in .env file of root directory
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
